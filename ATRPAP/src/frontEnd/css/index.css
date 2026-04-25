@@ -1,0 +1,53 @@
+/* ATRPAP - Agro-themed CSS */
+
+/* Global styles */
+body {
+    background: linear-gradient(to bottom, #4CAF50, #8BC34A); /* Green gradient for agricultural feel */
+    font-family: 'Arial', sans-serif;
+    color: #2E7D32; /* Dark green text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #388E3C; /* Deeper green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 50% 50%; /* Rounded bottom to evoke fields */
+}
+
+/* Main content */
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for contrast */
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons with earthy tones */
+button {
+    background-color: #FF9800; /* Orange for harvest */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F57C00; /* Darker orange */
+}
+
+/* Footer */
+footer {
+    background-color: #2E7D32;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
