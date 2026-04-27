@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import './OQueFazemos.css';
 
 import img1 from '../../assets/image 1.png';
@@ -7,28 +7,28 @@ import img7 from '../../assets/image 7.png';
 
 const servicos = [
   {
-    titulo: 'Cuidados com o Solo',
-    descricao: 'Preparo e correção do solo para maximizar a produtividade do plantio da agricultura familiar.',
+    titulo: 'Regularização Fundiária',
+    descricao: 'Titulação de propriedades para garantir segurança jurídica e acesso a créditos aos assentados.',
     imagem: img1,
   },
   {
-    titulo: 'Aragem e Gradagem',
-    descricao: 'Gradagem, aração e subsolagem de áreas agrícolas para garantir melhor aproveitamento da terra.',
+    titulo: 'Fortalecimento da Agricultura Familiar',
+    descricao: 'Projetos de Créditos Produtivos e Ambientais através de cooperação técnica com o INCRA.',
     imagem: img3,
   },
   {
-    titulo: 'Suporte à Pesca',
-    descricao: 'Apoio à pesca artesanal sustentável, fortalecendo a renda das famílias ribeirinhas do Pará.',
+    titulo: 'Crédito para Habitação Rural',
+    descricao: 'Acordos voltados para a construção e reforma de casas nos lotes dos nossos associados.',
     imagem: img7,
   },
   {
-    titulo: 'Comercialização Justa',
-    descricao: 'Facilitamos a venda e distribuição dos produtos rurais, garantindo preços justos aos produtores.',
+    titulo: 'Captação de Recursos e Equipamentos',
+    descricao: 'Gestão de emendas e parcerias para aquisição de máquinas que modernizam o trabalho no campo.',
     imagem: img1,
   },
   {
-    titulo: 'Capacitação Rural',
-    descricao: 'Treinamentos e capacitações para fortalecer as habilidades dos agricultores familiares.',
+    titulo: 'Assistência Técnica Especializada',
+    descricao: 'Suporte profissional direto com supervisão de Engenheiro Agrônomo e Médica Veterinária.',
     imagem: img3,
   },
 ];

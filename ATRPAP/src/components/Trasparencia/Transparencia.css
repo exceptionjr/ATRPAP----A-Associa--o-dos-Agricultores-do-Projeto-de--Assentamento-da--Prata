@@ -901,7 +901,7 @@
 /* Compact Dashboard Styles */
 
 .compact-transparency {
-  padding: 1.5rem;
+  padding: 80px 5%;
   background: #f5f3ee;
   min-height: 100vh;
 }
@@ -916,6 +916,8 @@
   color: white;
   border-radius: 16px;
   box-shadow: 0 14px 30px rgba(45, 80, 22, 0.18);
+  max-width: 1200px;
+  margin: 0 auto 1.5rem auto;
 }
 
 .compact-header h1 {
@@ -946,6 +948,8 @@
     'summary summary'
     'protocols exceptions';
   gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .summary-card {
@@ -962,6 +966,7 @@
   border-radius: 18px;
   padding: 1.75rem;
   box-shadow: 0 12px 26px rgba(0, 0, 0, 0.08);
+  min-width: 0;
 }
 
 .exceptions-card {
@@ -1051,9 +1056,15 @@
   transition: width 0.5s ease;
 }
 
+.table-scroll {
+  width: 100%;
+  overflow-x: auto;
+}
+
 .protocol-table {
   width: 100%;
   border-collapse: collapse;
+  min-width: 600px; /* Ensures the table doesn't squish too much and allows scrolling */
 }
 
 .protocol-table th,
@@ -1162,7 +1173,7 @@
 
 @media (max-width: 640px) {
   .compact-transparency {
-    padding: 1rem;
+    padding: 60px 5%;
   }
 
   .compact-header {
@@ -1194,6 +1205,14 @@
     font-size: 0.9rem;
   }
 
+  .compact-header h1 {
+    font-size: 1.3rem;
+  }
+
+  .compact-header p {
+    font-size: 0.85rem;
+  }
+
   .download-btn {
     width: 100%;
     justify-content: center;
@@ -1206,5 +1225,9 @@
   .project-tab {
     padding: 0.75rem 1rem;
     font-size: 0.85rem;
+  }
+
+  .summary-card, .protocols-card, .exceptions-card {
+    padding: 1rem;
   }
 }

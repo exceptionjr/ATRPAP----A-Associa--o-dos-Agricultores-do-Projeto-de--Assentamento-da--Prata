@@ -1,4 +1,5 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Gallery from './components/Gallery/Gallery';
@@ -11,10 +12,9 @@ import BackToTop from './components/BackToTop/BackToTop';
 import './index.css';
 import Transparencia from './components/Trasparencia/Transparencia';
 
-function App() {
+function Home() {
   return (
-    <div className="landing-page">
-      <Navbar />
+    <>
       <main>
         <Hero />
         <Gallery />
@@ -22,10 +22,21 @@ function App() {
         <OQueFazemos />
         <Noticias />
         <FaleConosco />
-        <Transparencia/>
       </main>
       <Contatos />
       <BackToTop />
+    </>
+  );
+}
+
+function App() {
+  return (
+    <div className="landing-page">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/transparencia" element={<Transparencia />} />
+      </Routes>
     </div>
   );
 }

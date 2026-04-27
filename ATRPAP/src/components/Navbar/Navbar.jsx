@@ -1,4 +1,5 @@
-import  { useState } from 'react';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -14,11 +15,11 @@ export default function Navbar() {
         </div>
         <nav className={`nav-menu ${isOpen ? 'active' : ''}`}>
           <ul>
-            <li><a href="#quem-somos" onClick={() => setIsOpen(false)}>Quem somos?</a></li>
-            <li><a href="#o-que-fazemos" onClick={() => setIsOpen(false)}>O que fazemos?</a></li>
-            <li><a href="#noticias" onClick={() => setIsOpen(false)}>Notícias</a></li>
-            <li><a href="#fale-conosco" onClick={() => setIsOpen(false)}>Transparência</a></li>
-            <li><a href="#contatos" onClick={() => setIsOpen(false)}>Contatos</a></li>
+            <li><a href="/#quem-somos" onClick={() => setIsOpen(false)}>Quem somos?</a></li>
+            <li><a href="/#o-que-fazemos" onClick={() => setIsOpen(false)}>O que fazemos?</a></li>
+            <li><a href="/#noticias" onClick={() => setIsOpen(false)}>Notícias</a></li>
+            <li><Link to="/transparencia" onClick={() => setIsOpen(false)}>Transparência</Link></li>
+            <li><a href="/#contatos" onClick={() => setIsOpen(false)}>Contatos</a></li>
           </ul>
         </nav>
       </div>
