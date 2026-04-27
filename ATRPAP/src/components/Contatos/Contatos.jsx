@@ -19,8 +19,9 @@ export default function Contatos() {
             <img src={iconLocation} alt="Endereço" className="ct-icon-img" />
             <div className="ct-item-text">
               <strong>Endereço</strong>
-              <span>Av. Boa Sorte - Setor Paraíso</span>
-              <span>Pau D'arco - PA</span>
+              <span>PA/Prata - Rodovia Pedro Carneiro km.07
+               Zona Rural com acesso no km. 40 da Rod. Transamazônica   </span>
+              <span>Município de São João do Araguaia Estado do Pará</span>
             </div>
           </div>
 
@@ -28,7 +29,7 @@ export default function Contatos() {
             <img src={iconPhone} alt="Telefone" className="ct-icon-img" />
             <div className="ct-item-text">
               <strong>Contato</strong>
-              <span>(94) 99298-5555</span>
+              <span>(94) 99137-6737</span>
             </div>
           </div>
 
@@ -36,7 +37,7 @@ export default function Contatos() {
             <img src={iconEmail} alt="E-mail" className="ct-icon-img" />
             <div className="ct-item-text">
               <strong>E-mail</strong>
-              <span>coopragipara@gmail.com</span>
+              <span>associacaoatrpap@gmail.com</span>
             </div>
           </div>
         </div>
@@ -46,7 +47,7 @@ export default function Contatos() {
 
         {/* Direita — marca */}
         <div className="ct-marca">
-          <span className="ct-marca-nome">COOPERAGRI</span>
+          <span className="ct-marca-nome">ATRPAP</span>
           <span className="ct-marca-sub">A coperativa do Pará</span>
         </div>
 
@@ -58,7 +59,7 @@ export default function Contatos() {
         <div className="ct-bar-center">
           <span>@ 2026 COPAGRI - Todos os direitos reservados.</span>
           <br />
-          <span>CNPJ: 19.323.899/0001-01</span>
+          <span>CNPJ: 05.279.352/0001-41</span>
         </div>
         <div className="ct-bar-right">
           <span>Desenvolvido por</span>

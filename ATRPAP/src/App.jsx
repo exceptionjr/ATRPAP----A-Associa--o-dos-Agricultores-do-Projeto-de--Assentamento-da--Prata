@@ -11,6 +11,8 @@ import Contatos from './components/Contatos/Contatos';
 import BackToTop from './components/BackToTop/BackToTop';
 import './index.css';
 import Transparencia from './components/Trasparencia/Transparencia';
+import Documentos from './components/Documentos/Documentos';
+import './components/Documentos/Documentos.css';
 
 function Home() {
   return (
@@ -36,6 +38,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/transparencia" element={<Transparencia />} />
+        <Route path="/documentos" element={<Documentos />} />
       </Routes>
     </div>
   );

@@ -16,7 +16,7 @@ export default function FaleConosco() {
             Entre em contato conosco pelo Whatsapp e agende uma conversa.
             </p>
           <a
-            href="https://wa.me/5594992985555"
+            href="https://wa.me/5594981376737"
             target="_blank"
             rel="noopener noreferrer"
             className="fale-btn"
