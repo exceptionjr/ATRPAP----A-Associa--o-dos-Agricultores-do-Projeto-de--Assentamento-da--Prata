@@ -11,8 +11,10 @@ export default function FaleConosco() {
         <div className="fale-card">
           <img src={whatsappIcon} alt="WhatsApp" className="fale-whatsapp-icon" />
           <p className="fale-texto">
-            Faça parte da COOPAGRI e contribua para o fortalecimento da agricultura, da pesca e da aquicultura no Pará. Juntoa, vamos mais longe!
-          </p>
+            Estamos à disposição para apresentar os benefícios de se tornar um cooperado ATRPAP. 
+            Contribua para a evolução do setor produtivo no Pará e alcance novos patamares. 
+            Entre em contato conosco pelo Whatsapp e agende uma conversa.
+            </p>
           <a
             href="https://wa.me/5594992985555"
             target="_blank"

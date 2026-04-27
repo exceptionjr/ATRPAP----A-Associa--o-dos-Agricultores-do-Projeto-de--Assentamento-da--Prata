@@ -9,6 +9,7 @@ import FaleConosco from './components/FaleConosco/FaleConosco';
 import Contatos from './components/Contatos/Contatos';
 import BackToTop from './components/BackToTop/BackToTop';
 import './index.css';
+import Transparencia from './components/Trasparencia/Transparencia';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <OQueFazemos />
         <Noticias />
         <FaleConosco />
+        <Transparencia/>
       </main>
       <Contatos />
       <BackToTop />
