@@ -55,9 +55,9 @@ export default function Contatos() {
 
       {/* ── Barra de copyright ── */}
       <div className="ct-bar">
-        <span className="ct-bar-left">COPAGRI</span>
+        <span className="ct-bar-left">ATRPAP</span>
         <div className="ct-bar-center">
-          <span>@ 2026 COPAGRI - Todos os direitos reservados.</span>
+          <span>@ 2026 ATRPAP - Todos os direitos reservados.</span>
           <br />
           <span>CNPJ: 05.279.352/0001-41</span>
         </div>
