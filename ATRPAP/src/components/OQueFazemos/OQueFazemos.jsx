@@ -5,6 +5,7 @@ import img1 from '../../assets/image 1.png';
 import img3 from '../../assets/image 3.png';
 import img7 from '../../assets/image 7.png';
 import img2 from "../../assets/fotos/a.jpeg";
+import img4 from "../../assets/trator.png";
 
 const servicos = [
   {
@@ -25,7 +26,7 @@ const servicos = [
   {
     titulo: 'Captação de recursos para aquisição de máquinas e equipamentos',
     descricao: 'gestão de emendas e parcerias para aquisição de máquinas que modernizam o trabalho no campo',
-    imagem: img1, // Nota: Substituir por foto específica da associação
+    imagem: img4, // Nota: Substituir por foto específica da associação
   },
   {
     titulo: 'Assistência Técnica Especializada',
