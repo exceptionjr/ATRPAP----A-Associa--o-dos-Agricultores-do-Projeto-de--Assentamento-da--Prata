@@ -26,6 +26,18 @@ export default function QuemSomos() {
         </div>
         <div className="quem-somos-image">
           <img src={mapaImg} alt="Mapa do local" title="Mapa do local" />
+          <button
+            className="mapa-voltar-btn"
+            onClick={() => {
+              const documentosSection = document.getElementById('documentos');
+              if (documentosSection) {
+                documentosSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
+            aria-label="Voltar aos documentos"
+          >
+            Voltar aos Documentos
+          </button>
         </div>
       </div>
     </section>

@@ -1,13 +1,8 @@
 import { useMemo, useState } from "react";
 import "./Documentos.css";
-const documentosData = [
-    {
-        id: 1,
-        categoria: "Mapa",
-        titulo: "Mapa do Local",
-        arquivo: "/docs/mapa/mapa-local.pdf",
-    },
-];
+
+
+const documentosData = [];
 
 export default function Documentos() {
     const [busca, setBusca] = useState("");
@@ -27,7 +22,7 @@ export default function Documentos() {
     }, [busca]);
 
     return (
-        <section className="documentos-vitrine">
+        <section className="documentos-vitrine" id="documentos">
             <header className="documentos-header">
                 <div>
                     <h1>Vitrine de Documentos</h1>
@@ -64,7 +59,7 @@ export default function Documentos() {
                                         rel="noreferrer"
                                         className="documento-card-link"
                                     >
-                                        Visualizar / Baixar
+                                        {documento.tipo === "pdf" ? "Visualizar PDF" : "Visualizar / Baixar"}
                                     </a>
                                 </li>
                             ))}

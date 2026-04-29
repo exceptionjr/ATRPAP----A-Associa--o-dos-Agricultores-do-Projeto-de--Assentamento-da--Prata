@@ -65,6 +65,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .quem-somos-image img {
@@ -82,12 +83,45 @@
   transform: scale(1.02);
 }
 
+.mapa-voltar-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--verde-floresta);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.quem-somos-image:hover .mapa-voltar-btn {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-5px);
+}
+
+.mapa-voltar-btn:hover {
+  background: #1a4f2c;
+}
+
 @media (max-width: 900px) {
   .quem-somos-container {
     flex-direction: column;
   }
-  
+
   .quem-somos-content h2 {
     font-size: 2rem;
+  }
+
+  .mapa-voltar-btn {
+    position: static;
+    transform: none;
+    margin-top: 20px;
+    opacity: 1;
   }
 }
