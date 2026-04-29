@@ -1,12 +1,27 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import './Noticias.css';
 
-import img1 from '../../assets/image 1.png';
-import img3 from '../../assets/image 3.png';
-import img7 from '../../assets/image 7.png';
-import imgBanner from '../../assets/atividades_coopagri.png';
+import assinaturaImg from '../../assets/noticias/assinatura.jpeg';
+import contrucaoImg from '../../assets/noticias/contrucao.jpeg';
 
-const noticias = [];
+const noticias = [
+  {
+    categoria: 'Assinaturas',
+    data: '29 Abr 2026',
+    titulo: 'Assinaturas de contratos de linhas de crédito cedidas pelo Incra',
+    resumo:
+      'ATRPAP formaliza novas linhas de crédito para projetos de infraestrutura e produção no Assentamento Prata.',
+    imagem: assinaturaImg,
+  },
+  {
+    categoria: 'Construção',
+    data: '28 Abr 2026',
+    titulo: 'ATRPAP constrói casas do Incra no Projeto de Assentamento Prata',
+    resumo:
+      'Projeto habitacional avança com a construção de novas casas para famílias assentadas, contando com apoio técnico e recursos do Incra.',
+    imagem: contrucaoImg,
+  },
+];
 
 const VISIBLE = 3;
 
@@ -14,12 +29,20 @@ export default function Noticias() {
   const [current, setCurrent] = useState(0);
   const total = noticias.length;
 
-  const prev = () => setCurrent((c) => (c - 1 + total) % total);
-  const next = () => setCurrent((c) => (c + 1) % total);
+  const prev = () => {
+    if (total === 0) return;
+    setCurrent((c) => (c - 1 + total) % total);
+  };
+
+  const next = () => {
+    if (total === 0) return;
+    setCurrent((c) => (c + 1) % total);
+  };
 
   const getVisible = () => {
+    const visibleCount = Math.min(VISIBLE, total);
     const items = [];
-    for (let i = 0; i < VISIBLE; i++) {
+    for (let i = 0; i < visibleCount; i++) {
       items.push(noticias[(current + i) % total]);
     }
     return items;
