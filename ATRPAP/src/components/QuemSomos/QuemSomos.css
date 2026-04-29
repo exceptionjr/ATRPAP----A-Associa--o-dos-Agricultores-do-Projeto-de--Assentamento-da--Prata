@@ -6,7 +6,7 @@
 
 .quem-somos-container {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
   gap: 60px;
   max-width: 1200px;
@@ -64,10 +64,15 @@
   flex: 1;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .quem-somos-image img {
   max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
   border-radius: 16px;
   box-shadow: 0 20px 40px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;

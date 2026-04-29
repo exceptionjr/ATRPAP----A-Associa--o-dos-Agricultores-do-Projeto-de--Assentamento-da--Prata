@@ -4,35 +4,35 @@ import './OQueFazemos.css';
 import img1 from '../../assets/image 1.png';
 import img3 from '../../assets/image 3.png';
 import img7 from '../../assets/image 7.png';
+import img2 from "../../assets/fotos/a.jpeg";
 
 const servicos = [
   {
     titulo: 'Regularização Fundiária',
-    descricao: 'Titulação de propriedades para garantir segurança jurídica e acesso a créditos aos assentados.',
+    descricao: 'Titulação de propriedades para garantir segurança jurídica e dar acesso a crédito',
     imagem: img1,
   },
   {
     titulo: 'Fortalecimento da Agricultura Familiar',
     descricao: 'Projetos de Créditos Produtivos e Ambientais através de cooperação técnica com o INCRA.',
-    imagem: img3,
+    imagem: img2,
   },
   {
-    titulo: 'Crédito para Habitação Rural',
-    descricao: 'Acordos voltados para a construção e reforma de casas nos lotes dos nossos associados.',
+    titulo: 'Crédito Habitação Rural',
+    descricao: 'Recursos voltados para a construção e reforma de casas nos lotes associados',
     imagem: img7,
   },
   {
-    titulo: 'Captação de Recursos e Equipamentos',
-    descricao: 'Gestão de emendas e parcerias para aquisição de máquinas que modernizam o trabalho no campo.',
-    imagem: img1,
+    titulo: 'Captação de recursos para aquisição de máquinas e equipamentos',
+    descricao: 'gestão de emendas e parcerias para aquisição de máquinas que modernizam o trabalho no campo',
+    imagem: img1, // Nota: Substituir por foto específica da associação
   },
   {
     titulo: 'Assistência Técnica Especializada',
-    descricao: 'Suporte profissional direto com supervisão de Engenheiro Agrônomo e Médica Veterinária.',
-    imagem: img3,
+    descricao: 'Suporte profissional direto com supervisão de profissionais Agrônomos e Veterinários.',
+    imagem: img3, // Nota: Substituir por foto específica da associação
   },
 ];
-
 const VISIBLE = 3;
 
 export default function OQueFazemos() {

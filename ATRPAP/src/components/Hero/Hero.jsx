@@ -1,6 +1,6 @@
 
 import './Hero.css';
-import bannerImg from '../../assets/Background.png';
+import bannerImg from '../../assets/fotos/background.png';
 
 export default function Hero() {
   return (
@@ -8,8 +8,8 @@ export default function Hero() {
       <div className="hero-overlay"></div>
       <div className="hero-content">
         <h1>ATRPAP</h1>
-        <h2>A Associação dos Agricultores do Projeto de  Assentamento Prata,</h2>
-        <p>Falta definir o slogan 
+        <h2>A Associação dos Agricultores do Projeto de  Assentamento Prata</h2>
+        <p>Fortalecendo da Agricultura Famliar
 
         </p>
       </div>

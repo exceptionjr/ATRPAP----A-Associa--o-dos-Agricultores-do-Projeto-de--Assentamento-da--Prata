@@ -1,6 +1,6 @@
 
 import './QuemSomos.css';
-import quemSomosImg from '../../assets/Mapa.jpg';
+import mapaImg from '../../assets/mapa.png';
 
 export default function QuemSomos() {
   return (
@@ -25,7 +25,7 @@ export default function QuemSomos() {
           </p> */}
         </div>
         <div className="quem-somos-image">
-          <img src={quemSomosImg} alt="Quem somos" />
+          <img src={mapaImg} alt="Mapa do local" title="Mapa do local" />
         </div>
       </div>
     </section>

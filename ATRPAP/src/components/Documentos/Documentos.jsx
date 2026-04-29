@@ -3,39 +3,9 @@ import "./Documentos.css";
 const documentosData = [
     {
         id: 1,
-        categoria: "Fundiário",
-        titulo: "Cadastro de Imóveis",
-        arquivo: "/docs/fundiario/cadastro-imoveis.pdf",
-    },
-    {
-        id: 2,
-        categoria: "Fundiário",
-        titulo: "Mapeamento de Terras",
-        arquivo: "/docs/fundiario/mapeamento-terras.pdf",
-    },
-    {
-        id: 3,
-        categoria: "Ambiental",
-        titulo: "Relatório de Impacto Ambiental",
-        arquivo: "/docs/ambiental/relatorio-impacto.pdf",
-    },
-    {
-        id: 4,
-        categoria: "Ambiental",
-        titulo: "Licença Ambiental",
-        arquivo: "/docs/ambiental/licenca-ambiental.pdf",
-    },
-    {
-        id: 5,
-        categoria: "Institucional",
-        titulo: "Regimento Interno",
-        arquivo: "/docs/institucional/regimento-interno.pdf",
-    },
-    {
-        id: 6,
-        categoria: "Institucional",
-        titulo: "Plano de Ação",
-        arquivo: "/docs/institucional/plano-acao.pdf",
+        categoria: "Mapa",
+        titulo: "Mapa do Local",
+        arquivo: "/docs/mapa/mapa-local.pdf",
     },
 ];
 
