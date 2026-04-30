@@ -16,7 +16,7 @@ export default function FaleConosco() {
             Entre em contato conosco pelo Whatsapp e agende uma conversa.
             </p>
           <a
-            href="https://wa.me/5594992985555"
+            href="https://api.whatsapp.com/send/?phone=5594981376737&text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20trabalho%20da%20ATRPAP%20e%20quais%20são%20os%20requisitos%20para%20me%20tornar%20um%20associado"
             target="_blank"
             rel="noopener noreferrer"
             className="fale-btn"

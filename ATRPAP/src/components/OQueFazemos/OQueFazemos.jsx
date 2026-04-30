@@ -1,38 +1,39 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import './OQueFazemos.css';
 
 import img1 from '../../assets/image 1.png';
 import img3 from '../../assets/image 3.png';
 import img7 from '../../assets/image 7.png';
+import img2 from "../../assets/fotos/a.jpeg";
+import img4 from "../../assets/trator.png";
 
 const servicos = [
   {
-    titulo: 'Cuidados com o Solo',
-    descricao: 'Preparo e correção do solo para maximizar a produtividade do plantio da agricultura familiar.',
+    titulo: 'Regularização Fundiária',
+    descricao: 'Titulação de propriedades para garantir segurança jurídica e dar acesso a crédito',
     imagem: img1,
   },
   {
-    titulo: 'Aragem e Gradagem',
-    descricao: 'Gradagem, aração e subsolagem de áreas agrícolas para garantir melhor aproveitamento da terra.',
-    imagem: img3,
+    titulo: 'Fortalecimento da Agricultura Familiar',
+    descricao: 'Projetos de Créditos Produtivos e Ambientais através de cooperação técnica com o INCRA.',
+    imagem: img2,
   },
   {
-    titulo: 'Suporte à Pesca',
-    descricao: 'Apoio à pesca artesanal sustentável, fortalecendo a renda das famílias ribeirinhas do Pará.',
+    titulo: 'Crédito Habitação Rural',
+    descricao: 'Recursos voltados para a construção e reforma de casas nos lotes associados',
     imagem: img7,
   },
   {
-    titulo: 'Comercialização Justa',
-    descricao: 'Facilitamos a venda e distribuição dos produtos rurais, garantindo preços justos aos produtores.',
-    imagem: img1,
+    titulo: 'Captação de recursos para aquisição de máquinas e equipamentos',
+    descricao: 'gestão de emendas e parcerias para aquisição de máquinas que modernizam o trabalho no campo',
+    imagem: img4, // Nota: Substituir por foto específica da associação
   },
   {
-    titulo: 'Capacitação Rural',
-    descricao: 'Treinamentos e capacitações para fortalecer as habilidades dos agricultores familiares.',
-    imagem: img3,
+    titulo: 'Assistência Técnica Especializada',
+    descricao: 'Suporte profissional direto com supervisão de profissionais Agrônomos e Veterinários.',
+    imagem: img3, // Nota: Substituir por foto específica da associação
   },
 ];
-
 const VISIBLE = 3;
 
 export default function OQueFazemos() {

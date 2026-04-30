@@ -87,6 +87,50 @@
    FILTERS SECTION
    ============================================ */
 
+.search-filter-section {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border-left: 4px solid var(--light-green);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  flex-wrap: wrap;
+}
+
+.search-input,
+.filter-select {
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--neutral-gray);
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background: white;
+  color: var(--text-dark);
+  font-family: inherit;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 250px;
+}
+
+.filter-select {
+  min-width: 200px;
+}
+
+.search-input:focus,
+.filter-select:focus {
+  outline: none;
+  border-color: var(--light-green);
+  box-shadow: 0 0 0 3px rgba(107, 169, 68, 0.1);
+}
+
+.search-input::placeholder {
+  color: var(--text-light);
+}
+
 .filters-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -98,6 +142,7 @@
   border-left: 4px solid var(--light-green);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
+
 
 .filter-group {
   display: flex;
@@ -833,6 +878,18 @@
     font-size: 1.8rem;
   }
 
+  .search-filter-section {
+    flex-direction: column;
+  }
+
+  .search-input {
+    min-width: 100%;
+  }
+
+  .filter-select {
+    width: 100%;
+  }
+
   .filters-section {
     grid-template-columns: 1fr;
   }
@@ -901,7 +958,7 @@
 /* Compact Dashboard Styles */
 
 .compact-transparency {
-  padding: 1.5rem;
+  padding: 80px 5%;
   background: #f5f3ee;
   min-height: 100vh;
 }
@@ -916,6 +973,8 @@
   color: white;
   border-radius: 16px;
   box-shadow: 0 14px 30px rgba(45, 80, 22, 0.18);
+  max-width: 1200px;
+  margin: 0 auto 1.5rem auto;
 }
 
 .compact-header h1 {
@@ -946,6 +1005,8 @@
     'summary summary'
     'protocols exceptions';
   gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .summary-card {
@@ -962,6 +1023,7 @@
   border-radius: 18px;
   padding: 1.75rem;
   box-shadow: 0 12px 26px rgba(0, 0, 0, 0.08);
+  min-width: 0;
 }
 
 .exceptions-card {
@@ -1051,9 +1113,15 @@
   transition: width 0.5s ease;
 }
 
+.table-scroll {
+  width: 100%;
+  overflow-x: auto;
+}
+
 .protocol-table {
   width: 100%;
   border-collapse: collapse;
+  min-width: 600px; /* Ensures the table doesn't squish too much and allows scrolling */
 }
 
 .protocol-table th,
@@ -1162,7 +1230,7 @@
 
 @media (max-width: 640px) {
   .compact-transparency {
-    padding: 1rem;
+    padding: 60px 5%;
   }
 
   .compact-header {
@@ -1194,6 +1262,14 @@
     font-size: 0.9rem;
   }
 
+  .compact-header h1 {
+    font-size: 1.3rem;
+  }
+
+  .compact-header p {
+    font-size: 0.85rem;
+  }
+
   .download-btn {
     width: 100%;
     justify-content: center;
@@ -1206,5 +1282,9 @@
   .project-tab {
     padding: 0.75rem 1rem;
     font-size: 0.85rem;
+  }
+
+  .summary-card, .protocols-card, .exceptions-card {
+    padding: 1rem;
   }
 }
