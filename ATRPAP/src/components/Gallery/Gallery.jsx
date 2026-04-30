@@ -1,7 +1,7 @@
 
 import './Gallery.css';
 import img1 from '../../assets/fotos/plantandomacaxeira.jpeg';
-import img2 from '../../assets/fotos/tirandoleite.jpeg';
+import img2 from '../../assets/fotos/tirandoLeite.jpeg';
 import img3 from '../../assets/frame1.png';
 import img4 from '../../assets/fotos/palmeiraAcai.jpg';
 
