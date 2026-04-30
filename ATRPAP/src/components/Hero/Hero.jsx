@@ -8,8 +8,8 @@ export default function Hero() {
       <div className="hero-overlay"></div>
       <div className="hero-content">
         <h1>ATRPAP</h1>
-        <h2>A Associação dos Agricultores do Projeto de  Assentamento Prata</h2>
-        <p>Fortalecendo da Agricultura Famliar
+        <h2>A Associação dos trabalhadores do Projeto de  Assentamento Prata</h2>
+        <p>Fortalecendo a agricultura familiar
 
         </p>
       </div>
