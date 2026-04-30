@@ -45,59 +45,6 @@ body {
   opacity: 0.8;
 }
 
-/* Hero Section */
-.hero-section {
-  position: relative;
-  height: 85vh;
-  min-height: 600px;
-  display: flex;
-  align-items: center;
-  padding: 0 15%;
-  background-image: url('./assets/BANNER.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.hero-section::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  /* subtle linear gradient for readability */
-  background: linear-gradient(to right, rgba(0, 40, 10, 0.45) 0%, rgba(0, 0, 0, 0) 100%);
-  z-index: 1;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2;
-  color: #fff;
-  max-width: 600px;
-}
-
-.hero-content h1 {
-  font-size: 5rem;
-  font-weight: 800;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-}
-
-.hero-content h2 {
-  font-size: 1.6rem;
-  font-weight: 500;
-  margin-bottom: 25px;
-  line-height: 1.4;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
-}
-
-.hero-content p {
-  font-size: 1.1rem;
-  font-weight: 600;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
-}
 
 /* Gallery Section */
 .gallery-section {

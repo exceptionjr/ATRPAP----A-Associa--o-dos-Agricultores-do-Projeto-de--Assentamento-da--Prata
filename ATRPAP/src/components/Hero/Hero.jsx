@@ -9,9 +9,7 @@ export default function Hero() {
       <div className="hero-content">
         <h1>ATRPAP</h1>
         <h2>A Associação dos Agricultores do Projeto de  Assentamento Prata</h2>
-        <p>Fortalecendo da Agricultura Famliar
-
-        </p>
+        <p>Fortalecendo a Agricultura Familiar</p>
       </div>
     </section>
   );
