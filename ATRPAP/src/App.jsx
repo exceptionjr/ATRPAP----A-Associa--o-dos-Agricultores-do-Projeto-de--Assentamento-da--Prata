@@ -13,6 +13,7 @@ import './index.css';
 import Transparencia from './components/Trasparencia/Transparencia';
 import Documentos from './components/Documentos/Documentos';
 import './components/Documentos/Documentos.css';
+import NoticiaDetalhe from './components/NoticiaDetalhe/NoticiaDetalhe';
 
 function Home() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/transparencia" element={<Transparencia />} />
         <Route path="/documentos" element={<Documentos />} />
+        <Route path="/noticia/:id" element={<NoticiaDetalhe />} />
       </Routes>
     </div>
   );
