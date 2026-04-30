@@ -1,9 +1,15 @@
 {
-  "version": 2,
+  "version": 3,
   "builds": [
-    { "src": "index.html", "use": "@vercel/static" }
+    {
+      "src": "ATRPAP/package.json",
+      "use": "@vercel/static-build"
+    }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
   ]
 }
