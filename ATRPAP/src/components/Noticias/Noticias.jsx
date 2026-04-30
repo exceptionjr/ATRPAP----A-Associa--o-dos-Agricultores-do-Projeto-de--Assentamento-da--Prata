@@ -31,9 +31,14 @@ export const noticias = [
         <h3>Modalidades Contratadas</h3>
         <p>Nesta etapa, as principais linhas formalizadas foram:</p>
         <ul>
-          <li><strong>Habitacional:</strong> Recursos de até R$ 97,5 mil (em novas atualizações) para a construção da casa própria.</li>
+          <li><strong>Habitacional:</strong> Recursos de até R$ 97,5 mil (em novas atualizações) para a construção da casa própria — <strong>R$ 107.000,00 por casa</strong>.</li>
+          <li><strong>Reforma de casas:</strong> R$ 55.000,00</li>
           <li><strong>Apoio Inicial:</strong> Verba para aquisição de itens de primeira necessidade e ferramentas de trabalho.</li>
           <li><strong>Fomento Mulher:</strong> Crédito de até R$ 8 mil voltado especificamente para projetos produtivos liderados pelas mulheres assentadas.</li>
+          <li><strong>Fomento:</strong> R$ 16 mil.</li>
+          <li><strong>Fomento jovem:</strong> R$ 8 mil.</li>
+          <li><strong>Fomento cacau:</strong> R$ 8 mil.</li>
+          <li><strong>Fomento reflorestamento:</strong> R$ 8 mil.</li>
         </ul>
         <h3>Transparência e Próximos Passos</h3>
         <p>
