@@ -48,6 +48,7 @@ export default function Contatos() {
         {/* Direita — marca */}
         <div className="ct-marca">
           <span className="ct-marca-nome">ATRPAP</span>
+          <span className="ct-marca-sub">Associação dos Trabalhadores Rurais do Projeto de Assentamento Prata</span>
           <span className="ct-marca-sub">Fortalecendo da Agricultura Famliar</span>
         </div>
 
