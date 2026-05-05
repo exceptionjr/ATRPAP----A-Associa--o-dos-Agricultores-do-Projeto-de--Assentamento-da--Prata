@@ -4,10 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "cross-env VITE_MODE=public vite",
+    "dev:public": "cross-env VITE_MODE=public vite",
+    "dev:cms": "cross-env VITE_MODE=cms vite",
+    "build": "cross-env VITE_MODE=public vite build && cross-env VITE_MODE=cms vite build",
+    "build:public": "cross-env VITE_MODE=public vite build",
+    "build:cms": "cross-env VITE_MODE=cms vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
   },
   "dependencies": {
     "react": "^19.2.5",
@@ -19,6 +23,7 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
+    "cross-env": "^10.1.0",
     "eslint": "^10.2.1",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
