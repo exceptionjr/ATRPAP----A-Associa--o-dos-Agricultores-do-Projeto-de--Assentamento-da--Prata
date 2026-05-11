@@ -26,7 +26,6 @@ export default function QuemSomos() {
         </div>
         <div className="quem-somos-image">
           <img src={mapaImg} alt="Mapa do local" title="Mapa do local" />
-          
         </div>
       </div>
     </section>

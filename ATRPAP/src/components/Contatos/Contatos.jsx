@@ -30,7 +30,7 @@ export default function Contatos() {
             <img src={iconPhone} alt="Telefone" className="ct-icon-img" />
             <div className="ct-item-text">
               <strong>Contato</strong>
-              <span>(94) 99137-6737</span>
+              <span>(94) 98137-6737</span>
             </div>
           </div>
 
