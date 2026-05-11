@@ -1,5 +1,3 @@
-
-import React from 'react';
 import './Contatos.css';
 import iconEmail from '../../assets/material-symbols_mail-outline.svg';
 import iconLocation from '../../assets/Group.svg';
