@@ -29,7 +29,7 @@ export default function Contatos() {
             <img src={iconPhone} alt="Telefone" className="ct-icon-img" />
             <div className="ct-item-text">
               <strong>Contato</strong>
-              <span>(94) 99137-6737</span>
+              <span>(94) 98137-6737</span>
             </div>
           </div>
 
@@ -48,10 +48,12 @@ export default function Contatos() {
         {/* Direita — marca */}
         <div className="ct-marca">
           <span className="ct-marca-nome">ATRPAP</span>
+          <span className="ct-marca-desc">Associação dos trabalhadores do Projeto de Assentamento Prata</span>
           <span className="ct-marca-sub">Fortalecendo da Agricultura Famliar</span>
         </div>
 
       </div>
+
 
       {/* ── Barra de copyright ── */}
       <div className="ct-bar">

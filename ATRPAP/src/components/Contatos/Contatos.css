@@ -93,6 +93,11 @@
   color: #39b54a;
   font-weight: 400;
 }
+.ct-marca-desc {
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: 400;
+}
 
 /* ─── Barra inferior ─────────────────────────────── */
 .ct-bar {
@@ -152,4 +157,5 @@
     text-align: center;
     padding: 14px 6%;
   }
+  
 }
