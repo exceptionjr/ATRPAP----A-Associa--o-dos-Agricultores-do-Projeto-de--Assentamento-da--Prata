@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(cd \"c:\\\\Users\\\\Gabriel\\\\OneDrive\\\\Desktop\\\\programador\\\\ATRPAP\"; Get-ChildItem -Recurse -Force -ErrorAction SilentlyContinue | Where-Object { -not \\($_.FullName -match '\\\\.git'\\) } | Select-Object -ExpandProperty FullName | Sort-Object | Select-Object -First 150)"
+    ]
+  }
+}

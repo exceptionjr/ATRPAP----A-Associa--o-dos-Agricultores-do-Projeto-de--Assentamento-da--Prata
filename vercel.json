@@ -3,13 +3,19 @@
   "builds": [
     {
       "src": "ATRPAP/package.json",
-      "use": "@vercel/static-build"
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "src/dist/public"
+      }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/$1"
     }
-  ]
+  ],
+  "env": {
+    "VITE_MODE": "public"
+  }
 }

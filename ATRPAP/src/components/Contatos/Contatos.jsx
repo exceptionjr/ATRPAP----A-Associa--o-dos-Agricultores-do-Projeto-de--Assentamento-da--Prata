@@ -1,8 +1,7 @@
-
 import './Contatos.css';
+import iconEmail from '../../assets/material-symbols_mail-outline.svg';
 import iconLocation from '../../assets/Group.svg';
 import iconPhone from '../../assets/ic_outline-call.svg';
-import iconEmail from '../../assets/material-symbols_mail-outline.svg';
 
 export default function Contatos() {
   return (
